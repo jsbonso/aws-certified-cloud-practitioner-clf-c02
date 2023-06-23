@@ -153,195 +153,209 @@ Skills in:
 
 ## CLF-C02 EXAM DOMAIN #3: CLOUD TECHNOLOGY AND SERVICES
 
-Task Statement 3.1: Define methods of deploying and operating in the AWS Cloud.
+### Task Statement 3.1: Define methods of deploying and operating in the AWS Cloud.
 
 Knowledge of:
 
-Different ways of provisioning and operating in the AWS Cloud
-Different ways to access AWS services
-Types of cloud deployment models
-Connectivity options
+- Different ways of provisioning and operating in the AWS Cloud
+- Different ways to access AWS services
+- Types of cloud deployment models
+- Connectivity options
+
+
 Skills in:
 
-Deciding between options such as programmatic access (for example, APIs, SDKs, CLI), the
-AWS Management Console, and infrastructure as code (IaC)
-Evaluating requirements to determine whether to use one-time operations or repeatable
-processes
-Identifying different deployment models (for example, cloud, hybrid, on-premises)
-Identifying connectivity options (for example, AWS VPN, AWS Direct Connect, public internet)
-Task Statement 3.2: Define the AWS global infrastructure.
+- Deciding between options such as programmatic access (for example, APIs, SDKs, CLI), the
+- AWS Management Console, and infrastructure as code (IaC)
+- Evaluating requirements to determine whether to use one-time operations or repeatable processes
+- Identifying different deployment models (for example, cloud, hybrid, on-premises)
+- Identifying connectivity options (for example, AWS VPN, AWS Direct Connect, public internet)
+
+
+### Task Statement 3.2: Define the AWS global infrastructure.
 
 Knowledge of:
 
-AWS Regions, Availability Zones, and edge locations
-High availability
-Use of multiple Regions
-Benefits of edge locations
-AWS Wavelength Zones and AWS Local Zones
+- AWS Regions, Availability Zones, and edge locations
+- High availability
+- Use of multiple Regions
+- Benefits of edge locations
+- AWS Wavelength Zones and AWS Local Zones
+
+
 Skills in:
 
-Describing relationships among Regions, Availability Zones, and edge locations
-Describing how to achieve high availability by using multiple Availability Zones
-Recognizing that Availability Zones do not share single points of failure
-Describing when to use multiple Regions (for example, disaster recovery, business continuity,
-low latency for end users, data sovereignty)
-Describing at a high level the benefits of edge locations (for example, Amazon CloudFront,
-AWS Global Accelerator)
-Task Statement 3.3: Identify AWS compute services.
+- Describing relationships among Regions, Availability Zones, and edge locations
+- Describing how to achieve high availability by using multiple Availability Zones
+- Recognizing that Availability Zones do not share single points of failure
+- Describing when to use multiple Regions (for example, disaster recovery, business continuity, low latency for end users, data sovereignty)
+- Describing at a high level the benefits of edge locations (for example, Amazon CloudFront, AWS Global Accelerator)
+
+
+### Task Statement 3.3: Identify AWS compute services.
 
 Knowledge of:
 
-AWS compute services
+- AWS compute services
+
+  
 Skills in:
 
-Recognizing the appropriate use of different EC2 instance types (for example, compute
-optimized, storage optimized)
-Recognizing the appropriate use of different container options (for example, Amazon ECS,
-Amazon EKS)
-Recognizing the appropriate use of different serverless compute options (for example, AWS
-Fargate, Lambda)
-Recognizing that auto scaling provides elasticity
-Identifying the purposes of load balancers
-Task Statement 3.4: Identify AWS database services.
+- Recognizing the appropriate use of different EC2 instance types (for example, compute optimized, storage optimized)
+- Recognizing the appropriate use of different container options (for example, Amazon ECS, Amazon EKS)
+- Recognizing the appropriate use of different serverless compute options (for example, AWS Fargate, Lambda)
+- Recognizing that auto scaling provides elasticity
+- Identifying the purposes of load balancers
+
+
+
+### Task Statement 3.4: Identify AWS database services.
 
 Knowledge of:
 
-AWS database services
-Database migration
+- AWS database services
+- Database migration
+
+
 Skills in:
 
-Deciding when to use EC2 hosted databases or AWS managed databases
-Identifying relational databases (for example, Amazon RDS, Amazon Aurora)
-Identifying NoSQL databases (for example, DynamoDB)
-Identifying memory-based databases
-Identifying database migration tools (for example AWS Database Migration Service [AWS
-DMS], AWS Schema Conversion Tool [AWS SCT])
-Task Statement 3.5: Identify AWS network services.
+- Deciding when to use EC2 hosted databases or AWS managed databases
+- Identifying relational databases (for example, Amazon RDS, Amazon Aurora)
+- Identifying NoSQL databases (for example, DynamoDB)
+- Identifying memory-based databases
+- Identifying database migration tools (for example AWS Database Migration Service [AWS DMS], AWS Schema Conversion Tool [AWS SCT])
+
+
+
+### Task Statement 3.5: Identify AWS network services.
 
 Knowledge of:
 
-AWS network services
+- AWS network services
+
+  
 Skills in:
 
-Identifying the components of a VPC (for example, subnets, gateways)
-Understanding security in a VPC (for example, network ACLs, security groups)
-Understanding the purpose of Amazon Route 53
-Identifying edge services (for example, CloudFront, Global Accelerator)
-Identifying network connectivity options to AWS (for example AWS VPN, Direct Connect)
-Task Statement 3.6: Identify AWS storage services.
+- Identifying the components of a VPC (for example, subnets, gateways)
+- Understanding security in a VPC (for example, network ACLs, security groups)
+- Understanding the purpose of Amazon Route 53
+- Identifying edge services (for example, CloudFront, Global Accelerator)
+- Identifying network connectivity options to AWS (for example, AWS VPN and Direct Connect)
+
+
+### Task Statement 3.6: Identify AWS storage services.
 
 Knowledge of:
 
-AWS storage services
+- AWS storage services
+
+
 Skills in:
 
-Identifying the uses for object storage
-Recognizing the differences in Amazon S3 storage classes
-Identifying block storage solutions (for example, Amazon Elastic Block Store [Amazon EBS],
-instance store)
-Identifying file services (for example, Amazon Elastic File System [Amazon EFS], Amazon FSx)
-Identifying cached file systems (for example, AWS Storage Gateway)
-Understanding use cases for lifecycle policies
-Understanding use cases for AWS Backup
-Task Statement 3.7: Identify AWS artificial intelligence and machine learning (AI/ML) services and analytics services.
+- Identifying the uses for object storage
+- Recognizing the differences in Amazon S3 storage classes
+- Identifying block storage solutions (for example, Amazon Elastic Block Store [Amazon EBS], instance store)
+- Identifying file services (for example, Amazon Elastic File System [Amazon EFS], Amazon FSx)
+- Identifying cached file systems (for example, AWS Storage Gateway)
+- Understanding use cases for lifecycle policies
+- Understanding use cases for AWS Backup
+
+
+### Task Statement 3.7: Identify AWS artificial intelligence and machine learning (AI/ML) services and analytics services.
 
 Knowledge of:
 
-AWS AI/ML services
-AWS analytics services
+- AWS AI/ML services
+- AWS analytics services
+
+
 Skills in:
 
-Understanding the different AI/ML services and the tasks that they accomplish (for example,
-Amazon SageMaker, Amazon Lex, Amazon Kendra)
-Identifying the services for data analytics (for example, Amazon Athena, Amazon Kinesis, AWS Glue and Amazon QuickSight)
-Task Statement 3.8: Identify services from other in-scope AWS service categories.
+- Understanding the different AI/ML services and the tasks that they accomplish (for example, Amazon SageMaker, Amazon Lex, Amazon Kendra)
+- Identifying the services for data analytics (for example, Amazon Athena, Amazon Kinesis, AWS Glue and Amazon QuickSight)
+
+
+### Task Statement 3.8: Identify services from other in-scope AWS service categories.
 
 Knowledge of:
 
-Application integration services of Amazon EventBridge, Amazon Simple Notification Service
-(Amazon SNS), and Amazon Simple Queue Service (Amazon SQS)
-Business application services of Amazon Connect and Amazon Simple Email Service (Amazon
-SES)
-Customer engagement services of AWS Activate for Startups, AWS IQ, AWS Managed Services(AMS), and AWS Support
-Developer tool services and capabilities of AWS AppConfig, AWS Cloud9, AWS CloudShell,
-AWS CodeArtifact, AWS CodeBuild, AWS CodeCommit, AWS CodeDeploy, AWS CodePipeline,
-AWS CodeStar, and AWS X-Ray
-End-user computing services of Amazon AppStream 2.0, Amazon WorkSpaces, and Amazon
-WorkSpaces Web
-Frontend web and mobile services of AWS Amplify and AWS AppSync
-IoT services of AWS IoT Core and AWS IoT Greengrass
+- Application integration services of Amazon EventBridge, Amazon Simple Notification Service (Amazon SNS), and Amazon Simple Queue Service (Amazon SQS)
+- Business application services of Amazon Connect and Amazon Simple Email Service (Amazon SES)
+- Customer engagement services of AWS Activate for Startups, AWS IQ, AWS Managed Services(AMS), and AWS Support
+- Developer tool services and capabilities of AWS AppConfig, AWS Cloud9, AWS CloudShell, AWS CodeArtifact, AWS CodeBuild, AWS CodeCommit, AWS CodeDeploy, AWS CodePipeline, AWS CodeStar, and AWS X-Ray
+- End-user computing services of Amazon AppStream 2.0, Amazon WorkSpaces, and Amazon WorkSpaces
+- Web Frontend web and mobile services of AWS Amplify and AWS AppSync
+- IoT services of AWS IoT Core and AWS IoT Greengrass
+
 Skills in:
 
-Choosing the appropriate service to deliver messages and to send alerts and notifications
-Choosing the appropriate service to meet business application needs
-Choosing the appropriate service for AWS customer support
-Choosing the appropriate option for business support assistance
-Identifying the tools to develop, deploy, and troubleshoot applications
-Identifying the services that can present the output of virtual machines (VMs) on end-user
-machines
-Identifying the services that can create and deploy frontend and mobile services
-Identifying the services that manage IoT devices
-EXAM DOMAIN #4: BILLING, PRICING & SUPPORT
+- Choosing the appropriate service to deliver messages and to send alerts and notifications
+- Choosing the appropriate service to meet business application needs
+- Choosing the appropriate service for AWS customer support
+- Choosing the appropriate option for business support assistance
+- Identifying the tools to develop, deploy, and troubleshoot applications
+- Identifying the services that can present the output of virtual machines (VMs) on end-user machines
+- Identifying the services that can create and deploy frontend and mobile services
+- Identifying the services that manage IoT devices
 
-Task Statement 4.1: Compare AWS pricing models.
+
+## EXAM DOMAIN #4: BILLING, PRICING & SUPPORT
+
+### Task Statement 4.1: Compare AWS pricing models.
 
 Knowledge of:
 
-Compute purchasing options (for example, On-Demand Instances, Reserved Instances, Spot
-Instances, Savings Plans, Dedicated Hosts, Dedicated Instances, Capacity Reservations)
-Data transfer charges
-Storage options and tiers
+- Compute purchasing options (for example, On-Demand Instances, Reserved Instances, Spot Instances, Savings Plans, Dedicated Hosts, Dedicated Instances, Capacity Reservations)
+- Data transfer charges
+- Storage options and tiers
+
+  
 Skills in:
 
-Identifying and comparing when to use various compute purchasing options
-Describing Reserved Instance flexibility
-Describing Reserved Instance behavior in AWS Organizations
-Understanding incoming data transfer costs and outgoing data transfer costs (for example,
-from one Region to another Region, within the same Region)
-Understanding different pricing options for various storage options and tiers
-Task Statement 4.2: Understand resources for billing, budget, and cost management.
+- Identifying and comparing when to use various compute purchasing options
+- Describing Reserved Instance flexibility
+- Describing Reserved Instance behavior in AWS Organizations
+- Understanding incoming data transfer costs and outgoing data transfer costs (for example, from one Region to another Region, within the same Region)
+- Understanding different pricing options for various storage options and tiers
+
+### Task Statement 4.2: Understand resources for billing, budget, and cost management.
 
 Knowledge of:
 
-Billing support and information
-Pricing information for AWS services
-AWS Organizations
-AWS cost allocation tags
+- Billing support and information
+- Pricing information for AWS services
+- AWS Organizations
+- AWS cost allocation tags 
+
 Skills in:
 
-Understanding the appropriate uses and capabilities of AWS Budgets, AWS Cost Explorer, and
-AWS Billing Conductor
-Understanding the appropriate uses and capabilities of AWS Pricing Calculator
-Understanding AWS Organizations consolidated billing and allocation of costs
-Understanding various types of cost allocation tags and their relation to billing reports (for
-example, AWS Cost and Usage Report)
-Task Statement 4.3: Identify AWS technical resources and AWS Support options.
+- Understanding the appropriate uses and capabilities of AWS Budgets, AWS Cost Explorer, and
+- AWS Billing Conductor
+- Understanding the appropriate uses and capabilities of AWS Pricing Calculator
+- Understanding AWS Organizations consolidated billing and allocation of costs
+- Understanding various types of cost allocation tags and their relation to billing reports (for example, AWS Cost and Usage Report)
+
+
+### Task Statement 4.3: Identify AWS technical resources and AWS Support options.
 
 Knowledge of:
 
-Resources and documentation available on official AWS websites
-AWS Support plans
-Role of the AWS Partner Network, including independent software vendors and system
-integrators
-AWS Support Center
+- Resources and documentation available on official AWS websites
+- AWS Support plans
+- Role of the AWS Partner Network, including independent software vendors and system integrators
+- AWS Support Center
+
 Skills in:
 
-Locating AWS whitepapers, blogs, and documentation on official AWS websites
-Identifying and locating AWS technical resources (for example AWS Prescriptive Guidance,
-AWS Knowledge Center, AWS re:Post)
-Identifying AWS Support options for AWS customers (for example, customer service and
-communities, AWS Developer Support, AWS Business Support, AWS Enterprise On-Ramp
-Support, AWS Enterprise Support)
-Identifying the role of Trusted Advisor, AWS Health Dashboard, and the AWS Health API to
-help manage and monitor environments for cost optimization
-Identifying the role of the AWS Trust and Safety team to report abuse of AWS resources
-Understanding the role of AWS Partners (for example AWS Marketplace, independent software vendors, system integrators)
-Identifying the benefits of being an AWS Partner (for example, partner training and
-certification, partner events, partner volume discounts)
-Identifying the key services that AWS Marketplace offers (for example, cost management,
-governance and entitlement)
-Identifying technical assistance options available at AWS (for example, AWS Professional
-Services, AWS Solutions Architects)
+- Locating AWS whitepapers, blogs, and documentation on official AWS websites
+- Identifying and locating AWS technical resources (for example AWS Prescriptive Guidance, AWS Knowledge Center, AWS re:Post)
+- Identifying AWS Support options for AWS customers (for example, customer service and communities, AWS Developer Support, AWS Business Support, AWS Enterprise On-Ramp Support, AWS Enterprise Support)
+- Identifying the role of Trusted Advisor, AWS Health Dashboard, and the AWS Health API to help manage and monitor environments for cost optimization
+- Identifying the role of the AWS Trust and Safety team to report abuse of AWS resources
+- Understanding the role of AWS Partners (for example AWS Marketplace, independent software vendors, system integrators)
+- Identifying the benefits of being an AWS Partner (for example, partner training and certification, partner events, partner volume discounts)
+- Identifying the key services that AWS Marketplace offers (for example, cost management, governance and entitlement)
+- Identifying technical assistance options available at AWS (for example, AWS Professional Services, AWS Solutions Architects)
 
 
 
