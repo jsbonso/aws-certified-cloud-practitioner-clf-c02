@@ -5,10 +5,10 @@ This contains all the relevant information on the new AWS Certified Cloud Practi
 # CLF-C02 Exam Domains for AWS Certified Cloud Practitioner
 The new exam domains for the AWS Certified Cloud Practitioner (CLF-C02) test are as follows:
 
-Domain 1: Cloud Concepts 24%
-Domain 2: Security and Compliance 30%
-Domain 3: Cloud Technology and Services 34%
-Domain 4: Billing, Pricing, and Support 12%
+- Domain 1: Cloud Concepts 24%
+- Domain 2: Security and Compliance 30%
+- Domain 3: Cloud Technology and Services 34%
+- Domain 4: Billing, Pricing, and Support 12%
 
 It’s interesting to note that the exam significantly increased its coverage in Security & Compliance domain. This seems to be the trend in the previously iterated AWS certification exam, where the security-related component of the test is increased. From 25%, the CLF-C02 exam now constitutes 30% of security-related topics.
 
@@ -17,115 +17,141 @@ There are also 2 previous CLF-C01 exam domains that were renamed. The “Technol
 # CLF-C02 Exam Topics for AWS Certified Cloud Practitioner
 The list of the AWS Certified Cloud Practitioner exam topics can be found in the official CLF-C02 exam guide. These topics are divided into domains and per task statement:
 
-CLF-C02 DOMAIN #1: CLOUD CONCEPTS
+## CLF-C02 DOMAIN #1: CLOUD CONCEPTS
 
-Task Statement 1.1: Define the benefits of the AWS Cloud.
-
-Knowledge of:
-
-Value proposition of the AWS Cloud
-Skills in:
-
-Understanding the economies of scale (for example, cost savings)
-Understanding the benefits of global infrastructure (for example, speed of deployment, global
-reach)
-Understanding the advantages of high availability, elasticity, and agility
-Task Statement 1.2: Identify design principles of the AWS Cloud.
-Knowledge of:
-
-AWS Well-Architected Framework
-Skills in:
-
-Understanding the pillars of the Well-Architected Framework (for example, operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability)
-Identifying differences between the pillars of the Well-Architected Framework
-Task Statement 1.3: Understand the benefits of and strategies for migration to the AWS Cloud.
-Knowledge of:
-
-Cloud adoption strategies
-Resources to support the cloud migration journey
-Skills in:
-
-Understanding the benefits of the AWS Cloud Adoption Framework (AWS CAF) (for example, reduced business risk; improved environmental, social, and governance [ESG]performance; increased revenue; increased operational efficiency)
-Identifying appropriate migration strategies (for example, database replication, use of AWS Snowball)
-Task Statement 1.4: Understand concepts of cloud economics.
-Knowledge of:
-
-Aspects of cloud economics
-Cost savings of moving to the cloud
-Skills in:
-
-Understanding the role of fixed costs compared with variable costs
-Understanding costs that are associated with on-premises environments
-Understanding the differences between licensing strategies (for example, Bring Your Own License [BYOL] model compared with included licenses)
-Understanding the concept of rightsizing
-Identifying benefits of automation (for example, provisioning and configuration management with AWS CloudFormation)
-Identifying managed AWS services (for example, Amazon RDS, Amazon Elastic Container Service [Amazon ECS], Amazon Elastic Kubernetes Service [Amazon EKS], Amazon DynamoDB)
-CLF-C02 EXAM DOMAIN #2: SECURITY & COMPLIANCE
-
-Task Statement 2.1: Understand the AWS shared responsibility model.
+### Task Statement 1.1: Define the benefits of the AWS Cloud.
 
 Knowledge of:
 
-AWS shared responsibility model
+- Value proposition of the AWS Cloud
+
+  
 Skills in:
 
-Recognizing the components of the AWS shared responsibility model
-Describing the customer’s responsibilities on AWS
-Describing AWS responsibilities
-Describing responsibilities that the customer and AWS share
-Describing how AWS responsibilities and customer responsibilities can shift, depending on the
-service used (for example, Amazon RDS, AWS Lambda, Amazon EC2)
-Task Statement 2.2: Understand AWS Cloud security, governance, and compliance concepts.
+- Understanding the economies of scale (for example, cost savings)
+- Understanding the benefits of global infrastructure (for example, speed of deployment, global reach)
+- Understanding the advantages of high availability, elasticity, and agility
+
+
+### Task Statement 1.2: Identify design principles of the AWS Cloud.
 
 Knowledge of:
 
-AWS compliance and governance concepts
-Benefits of cloud security (for example, encryption)
-Where to capture and locate logs that are associated with cloud security
+- AWS Well-Architected Framework
+
 Skills in:
 
-Identifying where to find AWS compliance information (for example, AWS Artifact)
-Understanding compliance needs among geographic locations or industries (for example, AWS Compliance)
-Describing how customers secure resources on AWS (for example, Amazon Inspector, AWS
-Security Hub, Amazon GuardDuty, AWS Shield)
-Identifying different encryption options (for example, encryption in transit, encryption at rest)
-Recognizing services that aid in governance and compliance (for example, monitoring with Amazon CloudWatch; auditing with AWS CloudTrail, AWS Audit Manager, and AWS Config;
+- Understanding the pillars of the Well-Architected Framework (for example, operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability)
+- Identifying differences between the pillars of the Well-Architected Framework
+
+
+### Task Statement 1.3: Understand the benefits of and strategies for migration to the AWS Cloud.
+
+Knowledge of:
+
+- Cloud adoption strategies
+- Resources to support the cloud migration journey
+
+Skills in:
+
+- Understanding the benefits of the AWS Cloud Adoption Framework (AWS CAF) (for example, reduced business risk; improved environmental, social, and governance [ESG]performance; increased revenue; increased operational efficiency)
+- Identifying appropriate migration strategies (for example, database replication, use of AWS Snowball)
+
+
+### Task Statement 1.4: Understand concepts of cloud economics.
+
+Knowledge of:
+
+- Aspects of cloud economics
+- Cost savings of moving to the cloud
+
+
+Skills in:
+
+- Understanding the role of fixed costs compared with variable costs
+- Understanding costs that are associated with on-premises environments
+- Understanding the differences between licensing strategies (for example, Bring Your Own License [BYOL] model compared with included licenses)
+- Understanding the concept of rightsizing
+- Identifying benefits of automation (for example, provisioning and configuration management with AWS CloudFormation)
+- Identifying managed AWS services (for example, Amazon RDS, Amazon Elastic Container Service [Amazon ECS], Amazon Elastic Kubernetes Service [Amazon EKS], Amazon DynamoDB)
+
+
+## CLF-C02 EXAM DOMAIN #2: SECURITY & COMPLIANCE
+
+### Task Statement 2.1: Understand the AWS shared responsibility model.
+
+Knowledge of:
+
+- AWS shared responsibility model
+
+Skills in:
+
+- Recognizing the components of the AWS shared responsibility model
+- Describing the customer’s responsibilities on AWS
+- Describing AWS responsibilities
+- Describing responsibilities that the customer and AWS share
+- Describing how AWS responsibilities and customer responsibilities can shift, depending on the service used (for example, Amazon RDS, AWS Lambda, Amazon EC2)
+
+
+### Task Statement 2.2: Understand AWS Cloud security, governance, and compliance concepts.
+
+Knowledge of:
+
+- AWS compliance and governance concepts
+- Benefits of cloud security (for example, encryption)
+- Where to capture and locate logs that are associated with cloud security
+
+
+Skills in:
+
+- Identifying where to find AWS compliance information (for example, AWS Artifact)
+- Understanding compliance needs among geographic locations or industries (for example, AWS Compliance)
+- Describing how customers secure resources on AWS (for example, Amazon Inspector, AWS Security Hub, Amazon GuardDuty, AWS Shield)
+- Identifying different encryption options (for example, encryption in transit, encryption at rest)
+- Recognizing services that aid in governance and compliance (for example, monitoring with Amazon CloudWatch; auditing with AWS CloudTrail, AWS Audit Manager, and AWS Config;
 reporting with access reports)
-Recognizing compliance requirements that vary among AWS services
-Task Statement 2.3: Identify AWS access management capabilities.
+- Recognizing compliance requirements that vary among AWS services
+
+
+
+### Task Statement 2.3: Identify AWS access management capabilities.
 
 Knowledge of:
 
-Identity and access management (for example, AWS Identity and Access Management [IAM])
-Importance of protecting the AWS root user account
-Principle of least privilege
-AWS IAM Identity Center (AWS Single Sign-On)
+- Identity and access management (for example, AWS Identity and Access Management [IAM])
+- Importance of protecting the AWS root user account
+- Principle of least privilege
+- AWS IAM Identity Center (AWS Single Sign-On)
+
+
 Skills in:
 
-Understanding access keys, password policies, and credential storage (for example, AWS
-Secrets Manager, AWS Systems Manager)
-Identifying authentication methods in AWS (for example, multi-factor authentication [MFA],
-IAM Identity Center, cross-account IAM roles)
-Defining groups, users, custom policies, and managed policies in compliance with the principle of least privilege
-Identifying tasks that only the account root user can perform
-Understanding which methods can achieve root user protection
-Understanding the types of identity management (for example, federated)
-Task Statement 2.4: Identify components and resources for security.
+- Understanding access keys, password policies, and credential storage (for example, AWS Secrets Manager, AWS Systems Manager)
+- Identifying authentication methods in AWS (for example, multi-factor authentication [MFA], IAM Identity Center, cross-account IAM roles)
+- Defining groups, users, custom policies, and managed policies in compliance with the principle of least privilege
+- Identifying tasks that only the account root user can perform
+- Understanding which methods can achieve root user protection
+- Understanding the types of identity management (for example, federated)
+
+
+
+### Task Statement 2.4: Identify components and resources for security.
 
 Knowledge of:
 
-Security capabilities that AWS provides
-Security-related documentation that AWS provides
+- Security capabilities that AWS provides
+- Security-related documentation that AWS provides
+
+
 Skills in:
 
-Describing AWS security features and services (for example, security groups, network ACLs,
-AWS WAF)
-Understanding that third-party security products are available from AWS Marketplace
-Identifying where AWS security information is available (for example, AWS Knowledge Center,
-AWS Security Center, AWS Security Blog)
-Understanding the use of AWS services for identifying security issues (for example, AWS
-Trusted Advisor)
-CLF-C02 EXAM DOMAIN #3: CLOUD TECHNOLOGY AND SERVICES
+- Describing AWS security features and services (for example, security groups, network ACLs, AWS WAF)
+- Understanding that third-party security products are available from AWS Marketplace
+- Identifying where AWS security information is available (for example, AWS Knowledge Center, AWS Security Center, AWS Security Blog)
+- Understanding the use of AWS services for identifying security issues (for example, AWS Trusted Advisor)
+
+
+## CLF-C02 EXAM DOMAIN #3: CLOUD TECHNOLOGY AND SERVICES
 
 Task Statement 3.1: Define methods of deploying and operating in the AWS Cloud.
 
